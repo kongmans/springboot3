@@ -1,0 +1,59 @@
+    <html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Demo</title>
+        <!-- 请勿在项目正式环境中引用该 layui.css 地址 -->
+        <link th:href="@{/layui/css/layui.css}" rel="stylesheet">
+    </head>
+    <body>
+    <div class="layui-layout layui-layout-admin">
+        <div th:replace="~{common::header}"></div>
+        <div th:replace="~{common::side}"></div>
+        <div  class="layui-body">
+            <!-- 内容主体区域 -->
+            <div style="padding: 15px;">
+                <blockquote class="layui-elem-quote layui-text">
+                    Layui 框体布局内容主体区域
+                </blockquote>
+                <div class="layui-card layui-panel">
+                    <div class="layui-card-header">
+                        下面是充数内容，为的是出现滚动条
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-table" lay-even>
+                            <colgroup>
+                                <col width="150">
+                                <col width="150">
+                                <col>
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th scope="col">userID</th>
+                                <th scope="col">UserName</th>
+                                <th scope="col">UserPassword</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr  class="table" th:each="user:${users}">
+                                <th th:text="${user.userId}"></th>
+                                <td th:text="${user.userName}"></td>
+                                <td th:text="${user.userPassword}"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+
+
+        <div th:replace="~{common::footer}"></div>
+    </div>
+
+<!-- 引入 layui.js -->
+<script src="./layui/layui.js"></script><!--<script type="text/javascript" src="/static/bootstrap/js/bootstrap.js" ></script>-->
+<!--<script type="text/javascript" src="/static/bootstrap/js/jquery.min.js" ></script>-->
+</body>
+</html>

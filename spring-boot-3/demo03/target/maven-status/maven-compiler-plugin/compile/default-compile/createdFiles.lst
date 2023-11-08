@@ -1,0 +1,5 @@
+com\kong\boot\Demo03Application.class
+com\kong\boot\controller\personController.class
+com\kong\boot\pojo\Person.class
+com\kong\boot\config\MyMvcConfig.class
+com\kong\boot\controller\listController.class

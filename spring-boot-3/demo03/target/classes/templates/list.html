@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet" >
+
+<body>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+</nav>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">id</th>
+        <th scope="col">name</th>
+        <th scope="col">age</th>
+        <th scope="col">email</th>
+        <th scope="col">role</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="person:${person}">
+        <th scope="row" th:text="${person.id}"></th>
+        <td th:text="${person.name}"></td>
+        <td th:text="${person.age}"></td>
+        <td th:text="${person.email}"></td>
+        <td th:text="${person.role}"></td>
+    </tr>
+    </tbody>
+</table>
+<script src="./bootstrap/js/bootstrap.js"></script>
+<script src="./bootstrap/js/jquery.min.js"></script>
+</body>
+</html>

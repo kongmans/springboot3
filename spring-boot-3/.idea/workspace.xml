@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08c5d620-e4ca-483f-b358-e5f47063f9f8" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Mybatis Mapper" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/demo04/src/main/java/com/kong/ssm/controller/LoginController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/demo04/src/main/resources/mapper/UserMapper.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/demo04/src/main/resources/templates/admin.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Apache24/apache-maven-3.8.8" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2XEd7KofdzWmaE5lDANHH9FkfpT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;sdk&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/idea/spring-boot-3/demo04/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9522f9f72698bc32b64d978a777c51f8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources" />
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources\templates" />
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources\static\bootstrap\js" />
+      <recent name="F:\idea\spring-boot-3\demo03\src\main\resources\templates" />
+      <recent name="F:\idea\spring-boot-3\demo03\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\idea\spring-boot-3\demo03\src\main\resources" />
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources\static\layui" />
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources\static\layui\css" />
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources\static" />
+      <recent name="F:\idea\spring-boot-3\demo04\src\main\resources\static\bootstrap\cs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kong.ssm.controller" />
+      <recent name="com.kong.boot.pojo" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Demo04Application">
+    <configuration name="Demo03ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kong.boot" />
+      <option name="MAIN_CLASS_NAME" value="com.kong.boot.Demo03ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo04ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.ssm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kong.ssm" />
+      <option name="MAIN_CLASS_NAME" value="com.kong.ssm.Demo04ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05RedisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo05-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kong.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.kong.redis.Demo05RedisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05RedisApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo05-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kong.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.kong.redis.Demo05RedisApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="demo02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.boot.Demo02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.boot.Demo03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.ssm.Demo04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="demo04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.ssm.Demo04Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.ssm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="demo05-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.redis.Demo05RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="demo01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.boot.MainApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Demo03ApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Demo04ApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Demo05RedisApplicationTests.test" />
+      <item itemvalue="JUnit.Demo05RedisApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Demo05RedisApplication" />
+      <item itemvalue="Spring Boot.Demo04Application" />
+      <item itemvalue="Spring Boot.Demo02Application" />
+      <item itemvalue="Spring Boot.Demo03Application" />
+      <item itemvalue="Spring Boot.MainApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo03ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo04ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo05RedisApplicationTests.test" />
+        <item itemvalue="JUnit.Demo05RedisApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="08c5d620-e4ca-483f-b358-e5f47063f9f8" name="更改" comment="" />
+      <created>1698198005389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698198005389</updated>
+      <workItem from="1698198006755" duration="3401000" />
+      <workItem from="1698202856178" duration="37000" />
+      <workItem from="1698202967774" duration="366000" />
+      <workItem from="1698209054346" duration="82000" />
+      <workItem from="1698209142150" duration="9292000" />
+      <workItem from="1698220954146" duration="1134000" />
+      <workItem from="1698280013331" duration="12552000" />
+      <workItem from="1698322278471" duration="72000" />
+      <workItem from="1698374868353" duration="1004000" />
+      <workItem from="1698379979326" duration="1595000" />
+      <workItem from="1698381605307" duration="4667000" />
+      <workItem from="1698386310521" duration="256000" />
+      <workItem from="1698386586825" duration="793000" />
+      <workItem from="1698387399559" duration="672000" />
+      <workItem from="1698388090879" duration="636000" />
+      <workItem from="1698388754314" duration="3228000" />
+      <workItem from="1698392014659" duration="3837000" />
+      <workItem from="1698399844846" duration="1429000" />
+      <workItem from="1698404489812" duration="601000" />
+      <workItem from="1698481103820" duration="4847000" />
+      <workItem from="1698627575820" duration="1576000" />
+      <workItem from="1698631748930" duration="3721000" />
+      <workItem from="1698664286298" duration="2059000" />
+      <workItem from="1698666390135" duration="1431000" />
+      <workItem from="1698715563563" duration="1727000" />
+      <workItem from="1698717505899" duration="10708000" />
+      <workItem from="1698734037820" duration="517000" />
+      <workItem from="1698736451996" duration="619000" />
+      <workItem from="1698737235326" duration="143000" />
+      <workItem from="1698738862064" duration="614000" />
+      <workItem from="1698889338606" duration="3568000" />
+      <workItem from="1698893093652" duration="1375000" />
+      <workItem from="1698915305195" duration="2288000" />
+      <workItem from="1698969146315" duration="5436000" />
+      <workItem from="1699083583522" duration="104000" />
+      <workItem from="1699262739296" duration="844000" />
+      <workItem from="1699264696107" duration="13266000" />
+      <workItem from="1699257292709" duration="1896000" />
+      <workItem from="1699317840559" duration="8153000" />
+      <workItem from="1699333066567" duration="2294000" />
+      <workItem from="1699338290592" duration="2285000" />
+      <workItem from="1699343323972" duration="1985000" />
+      <workItem from="1699347594820" duration="2629000" />
+      <workItem from="1699350298516" duration="1016000" />
+      <workItem from="1699400413648" duration="2421000" />
+      <workItem from="1699409469125" duration="659000" />
+      <workItem from="1699410147673" duration="478000" />
+      <workItem from="1699410848391" duration="634000" />
+      <workItem from="1699411647753" duration="1069000" />
+      <workItem from="1699425110856" duration="1935000" />
+      <workItem from="1699427083386" duration="1917000" />
+      <workItem from="1699429027432" duration="1941000" />
+      <workItem from="1699431000432" duration="885000" />
+      <workItem from="1699434263760" duration="4700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
