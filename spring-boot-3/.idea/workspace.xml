@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c5d620-e4ca-483f-b358-e5f47063f9f8" name="更改" comment="" />
+    <list default="true" id="08c5d620-e4ca-483f-b358-e5f47063f9f8" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo03/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo03/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo04/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo04/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo05-redis/src/main/java/com/kong/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo05-redis/src/main/java/com/kong/redis/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo05-redis/src/test/java/com/kong/redis/Demo05RedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo05-redis/src/test/java/com/kong/redis/Demo05RedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo05-redis/target/classes/com/kong/redis/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo05-redis/target/classes/com/kong/redis/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo05-redis/target/test-classes/com/kong/redis/Demo05RedisApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo05-redis/target/test-classes/com/kong/redis/Demo05RedisApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +49,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2XEd7KofdzWmaE5lDANHH9FkfpT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +76,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;mybatisx.settings&quot;,
     &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;9522f9f72698bc32b64d978a777c51f8&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -105,7 +117,7 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo04Application">
+  <component name="RunManager" selected="JUnit.Demo05RedisApplicationTests.test2">
     <configuration name="Demo03ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo03" />
       <extension name="coverage">
@@ -116,22 +128,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kong.boot" />
       <option name="MAIN_CLASS_NAME" value="com.kong.boot.Demo03ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo04ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kong.ssm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kong.ssm" />
-      <option name="MAIN_CLASS_NAME" value="com.kong.ssm.Demo04ApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -154,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo05RedisApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo05RedisApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo05-redis" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +160,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kong.redis" />
       <option name="MAIN_CLASS_NAME" value="com.kong.redis.Demo05RedisApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05RedisApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo05-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kong.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.kong.redis.Demo05RedisApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05RedisApplicationTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo05-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kong.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kong.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.kong.redis.Demo05RedisApplicationTests" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,38 +242,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="demo01" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kong.boot.MainApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kong.boot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.Demo05RedisApplicationTests.test1" />
+      <item itemvalue="JUnit.Demo05RedisApplicationTests.test2" />
+      <item itemvalue="JUnit.Demo05RedisApplicationTests.test3" />
       <item itemvalue="JUnit.Demo03ApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.Demo04ApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.Demo05RedisApplicationTests.test" />
       <item itemvalue="JUnit.Demo05RedisApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Demo05RedisApplication" />
       <item itemvalue="Spring Boot.Demo04Application" />
       <item itemvalue="Spring Boot.Demo02Application" />
       <item itemvalue="Spring Boot.Demo03Application" />
-      <item itemvalue="Spring Boot.MainApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Demo03ApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.Demo04ApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.Demo05RedisApplicationTests.test" />
+        <item itemvalue="JUnit.Demo05RedisApplicationTests.test2" />
+        <item itemvalue="JUnit.Demo05RedisApplicationTests.test3" />
         <item itemvalue="JUnit.Demo05RedisApplicationTests.contextLoads" />
-        <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="JUnit.Demo05RedisApplicationTests.test1" />
+        <item itemvalue="JUnit.Demo03ApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -311,6 +325,9 @@
       <workItem from="1699429027432" duration="1941000" />
       <workItem from="1699431000432" duration="885000" />
       <workItem from="1699434263760" duration="4700000" />
+      <workItem from="1699508036865" duration="1368000" />
+      <workItem from="1699511414380" duration="6660000" />
+      <workItem from="1699518144999" duration="2865000" />
     </task>
     <servers />
   </component>
