@@ -23,16 +23,7 @@ class Demo05RedisApplicationTests {
 	void contextLoads() {
 		RedisConnection connection = redisTemplate.getRequiredConnectionFactory().getConnection();
         System.out.println(connection);
-
-
 	}
-
-
-    @Test
-    public void test3(){
-        redisUtil.set("user2","lisi");
-        System.out.println(redisTemplate.opsForValue().get("user2"));
-    }
     @Test
     public void test1() {
         redisTemplate.opsForValue().set("name","张三");
@@ -40,12 +31,29 @@ class Demo05RedisApplicationTests {
 
     }
 
+
     @Test
-    public void test2() throws JsonProcessingException {
+    public void test2(){
+        redisUtil.set("user2","lisi");
+        System.out.println(redisUtil.get("user2"));
+        redisUtil.set("name3","wangwu");
+         System.out.println(redisUtil.get("name3"));
+    }
+
+
+    @Test
+    public void test3() throws JsonProcessingException {
         User user1 = new User("kongman", 12);
         String jsonUser = new ObjectMapper().writeValueAsString(user1);
         redisTemplate.opsForValue().set("user",jsonUser);
         System.out.println(redisTemplate.opsForValue().get("user"));
+    }
+    @Test
+    public void test4() throws JsonProcessingException {
+        User user2 = new User("kongman11", 121);
+
+        redisUtil.set("admin",user2);
+        System.out.println(redisUtil.get("admin"));
     }
 
 }
